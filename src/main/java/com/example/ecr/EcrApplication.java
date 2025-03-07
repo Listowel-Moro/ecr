@@ -13,9 +13,4 @@ public class EcrApplication {
 		SpringApplication.run(EcrApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public String home() {
-		return "Welcome to Listowel's ECR!";
-	}
-
 }
