@@ -36,9 +36,9 @@ jobs:
       - name: Build and tag Docker image
         run: |
           docker build -t listowel_adolwin_moro_ecr .
-          docker tag listowel_adolwin_moro_ecr:latest public.ecr.aws/z2w7p2s7/labs:latest
+          docker tag listowel_adolwin_moro_ecr:latest public.ecr.aws/z2w7p2s7/labs:listowel_adolwin_moro_ecr
       
       - name: Push Docker image to Amazon ECR
         run: |
-          docker push public.ecr.aws/z2w7p2s7/labs:latest
+          docker push public.ecr.aws/z2w7p2s7/labs:listowel_adolwin_moro_ecr
       
