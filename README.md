@@ -1,6 +1,6 @@
 # Pushing Java App Image to Amazon Elastic Container Registry (ECR)
 
-## Objective
+## Objectivee
 
 In this lab, I containerized a Java application and deployed the container image to Amazon Elastic Container Registry (ECR) using a GitHub Actions pipeline.
 
